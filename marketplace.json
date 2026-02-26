@@ -5,7 +5,13 @@
   "author": "hoyoboy0726123",
   "license": "MIT",
   "repository": "https://github.com/hoyoboy0726123/claude-skill-github-pages-deployer",
+  "npm": "claude-skill-github-pages-deployer",
   "skill": "SKILL.md",
+  "install": {
+    "npx": "npx claude-skill-github-pages-deployer",
+    "npm": "npm install -g claude-skill-github-pages-deployer",
+    "curl": "mkdir -p ~/.claude/skills/github-pages-deployer && curl -o ~/.claude/skills/github-pages-deployer/SKILL.md https://raw.githubusercontent.com/hoyoboy0726123/claude-skill-github-pages-deployer/main/SKILL.md"
+  },
   "categories": ["deployment", "github-actions", "automation", "ci-cd"],
   "tags": ["github-pages", "vite", "react", "github-actions", "deployment", "automation"],
   "compatibility": ["claude-code", "codex-cli"]
