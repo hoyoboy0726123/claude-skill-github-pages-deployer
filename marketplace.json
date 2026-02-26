@@ -1,0 +1,12 @@
+{
+  "name": "github-pages-deployer",
+  "version": "1.0.0",
+  "description": "Automates end-to-end deployment to GitHub Pages using GitHub Actions. Handles Git initialization, GitHub repo creation, Vite base-path configuration, verified workflow setup, and proactive deployment monitoring.",
+  "author": "hoyoboy0726123",
+  "license": "MIT",
+  "repository": "https://github.com/hoyoboy0726123/claude-skill-github-pages-deployer",
+  "skill": "SKILL.md",
+  "categories": ["deployment", "github-actions", "automation", "ci-cd"],
+  "tags": ["github-pages", "vite", "react", "github-actions", "deployment", "automation"],
+  "compatibility": ["claude-code", "codex-cli"]
+}
