@@ -1,5 +1,7 @@
 # claude-skill-github-pages-deployer
 
+[![npm version](https://img.shields.io/npm/v/claude-skill-github-pages-deployer)](https://www.npmjs.com/package/claude-skill-github-pages-deployer)
+[![npm downloads](https://img.shields.io/npm/dm/claude-skill-github-pages-deployer)](https://www.npmjs.com/package/claude-skill-github-pages-deployer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/claude-code)
 [![GitHub Pages](https://img.shields.io/badge/Deploys%20to-GitHub%20Pages-222?logo=github)](https://pages.github.com/)
@@ -37,28 +39,37 @@ Claude will activate this skill when you say things like:
 
 ## Installation
 
-### Option 1 — Manual (one command)
+### Option 1 — npx (recommended, no install needed)
 
 ```bash
-mkdir -p ~/.claude/skills/github-pages-deployer
-curl -o ~/.claude/skills/github-pages-deployer/SKILL.md \
+npx claude-skill-github-pages-deployer
+```
+
+### Option 2 — npm global install (installs automatically on `npm install -g`)
+
+```bash
+npm install -g claude-skill-github-pages-deployer
+```
+
+> The skill is copied to `~/.claude/skills/github-pages-deployer/SKILL.md` automatically.
+> Restart Claude Code after installation.
+
+### Option 3 — curl (one-liner)
+
+```bash
+mkdir -p ~/.claude/skills/github-pages-deployer && \
+  curl -o ~/.claude/skills/github-pages-deployer/SKILL.md \
   https://raw.githubusercontent.com/hoyoboy0726123/claude-skill-github-pages-deployer/main/SKILL.md
 ```
 
-### Option 2 — Clone
+### Option 4 — Clone
 
 ```bash
 git clone https://github.com/hoyoboy0726123/claude-skill-github-pages-deployer.git \
   ~/.claude/skills/github-pages-deployer
 ```
 
-### Option 3 — Via Claude Code
-
-Tell Claude Code directly:
-
-> *"Install the github-pages-deployer skill from hoyoboy0726123/claude-skill-github-pages-deployer"*
-
-After installation, restart Claude Code (or open a new session) for the skill to load.
+After any installation method, **restart Claude Code** for the skill to load.
 
 ---
 

@@ -1,0 +1,39 @@
+{
+  "name": "claude-skill-github-pages-deployer",
+  "version": "1.0.0",
+  "description": "Claude Code skill that automates end-to-end GitHub Pages deployment — git init to live URL, zero manual steps.",
+  "bin": {
+    "claude-skill-github-pages-deployer": "bin/install.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "github-pages",
+    "github-actions",
+    "vite",
+    "react",
+    "deployment",
+    "automation",
+    "cli"
+  ],
+  "author": "hoyoboy0726123",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoyoboy0726123/claude-skill-github-pages-deployer.git"
+  },
+  "homepage": "https://github.com/hoyoboy0726123/claude-skill-github-pages-deployer#readme",
+  "bugs": {
+    "url": "https://github.com/hoyoboy0726123/claude-skill-github-pages-deployer/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
